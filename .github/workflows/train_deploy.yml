@@ -22,7 +22,7 @@ jobs:
       id: aml_workspace
       uses: Azure/aml-workspace@v1
       with:
-          azure_credentials: ${{ secrets.AZURE_CREDENTIALS }}
+          azure_credentials: ${{ secrets.AZURE_CREDENTIALS }} 
     
     # Connect or Create a Compute Target in Azure Machine Learning
     - name: Connect/Create Azure Machine Learning Compute Target
